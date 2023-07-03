@@ -1,0 +1,33 @@
+body{
+    background-color: #717377;
+}
+.wrapper{
+    width: 300px;
+    text-align: center;
+}
+.changeClrBtn{
+    width:100px;
+    outline:none;
+    border:none;
+    border-radius: 2px;
+    padding: 5px;
+    background: rebeccapurple;
+    cursor:pointer;
+}
+.colorGrid{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    border-radius: 4px;
+    /* margin: 2%;
+    margin-top: 10%; */
+}
+.selectedColor{
+    margin-top: 2%;
+    display:flex;
+    align-items: center;
+}
+.colorvalue{
+    margin-left: 5px;
+    font-weight: bold;
+}
